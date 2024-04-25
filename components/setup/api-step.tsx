@@ -73,8 +73,7 @@ export const APIStep: FC<APIStepProps> = ({
       <div className="space-y-1">
         <Label>Terms and Conditions</Label>
         <p>
-          By clicking next, you are agreeing to the MayaGPT's terms and
-          conditions.
+          By clicking next, you are agreeing to the terms and conditions of MayaGPT.
         </p>
       </div>
 
