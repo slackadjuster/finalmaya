@@ -6,7 +6,7 @@ interface GoogleSVGProps {
   className?: string
 }
 
-export const OpenAISVG: FC<GoogleSVGProps> = ({
+export const GoogleSVG: FC<GoogleSVGProps> = ({
   height = 40,
   width = 40,
   className

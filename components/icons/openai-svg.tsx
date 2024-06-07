@@ -6,7 +6,7 @@ interface OpenAISVGProps {
   className?: string
 }
 
-export const GoogleSVG: FC<OpenAISVGProps> = ({
+export const OpenAISVG: FC<OpenAISVGProps> = ({
   height = 40,
   width = 40,
   className
