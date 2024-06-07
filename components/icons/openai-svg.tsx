@@ -1,12 +1,12 @@
 import { FC } from "react"
 
-interface GoogleSVGProps {
+interface OpenAISVGProps {
   height?: number
   width?: number
   className?: string
 }
 
-export const GoogleSVG: FC<GoogleSVGProps> = ({
+export const GoogleSVG: FC<OpenAISVGProps> = ({
   height = 40,
   width = 40,
   className
