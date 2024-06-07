@@ -228,7 +228,7 @@ export const Message: FC<MessageProps> = ({
                   />
                 ) : (
                   <WithTooltip
-                    display={<div>{MODEL_DATA?.modelName}</div>}
+                    display={<div>MayaGPT</div>}
                     trigger={
                       <ModelIcon
                         provider={modelDetails?.provider || "custom"}
